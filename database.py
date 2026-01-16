@@ -1,7 +1,7 @@
 import mysql.connector as sql
 from data import product
 
-conn=sql.connect(host='localhost',user="root",password="Ankur123")
+conn=sql.connect(host='localhost',user="root",password="")
 conn.autocommit=True
 cur=conn.cursor()
 cur.execute("use data;")
